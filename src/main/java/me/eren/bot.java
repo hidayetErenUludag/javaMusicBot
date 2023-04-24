@@ -13,7 +13,7 @@ public class bot{
     static final Map<String, command> commands = new HashMap<>();
 
     public static void main(String[] args) throws LoginException {
-        JDA myBot = JDABuilder.createDefault("MTA5OTc2OTI0NjAwOTAxMjI2NA.GKSHPc.8yLcB0biSJELav3JcYdfB1BzbQvLOQui1-xxrs")
+        JDA myBot = JDABuilder.createDefault("MTA5OTc2OTI0NjAwOTAxMjI2NA.GKSHPc.8yLcB0biSJELav3JcYdfB1BzbQvLOQui1-xxrs")// Use your apı key
                 .setActivity(Activity.playing("with my life"))
                 .addEventListeners(new myListener())
                 .build();
